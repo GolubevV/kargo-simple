@@ -6,5 +6,5 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/GolubevV/guestbook
+      repoURL: ghcr.io/golubevv/guestbook
       imageSelectionStrategy: SemVer
