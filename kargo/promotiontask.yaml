@@ -5,11 +5,13 @@ metadata:
   namespace: kargo-simple
 spec:
   vars:
-        - name: repoURL
-          value: https://github.com/golubevv/kargo-simple.git  - name: branch
+  - name: repoURL
+    value: https://github.com/golubevv/kargo-simple.git
+  - name: branch
     value: main
   - name: image
-            value: ghcr.io/golubevv/guestbook  - name: openpr
+    value: ghcr.io/golubevv/guestbook
+  - name: openpr
     value: "false"
   steps:
   # Clone the Git repository that contains the Kustomize configuration
