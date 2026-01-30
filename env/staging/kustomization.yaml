@@ -7,4 +7,5 @@ resources:
 namespace: guestbook-simple-staging
 
 images:
-  - name: ghcr.io/golubevv/guestbook  newTag: v0.0.1
+  - name: ghcr.io/golubevv/guestbook  
+    newTag: v0.0.1
